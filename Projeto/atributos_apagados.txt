@@ -1,0 +1,10 @@
+SG_UF_NOT
+ID_REGIONA
+ID_MUNICIP
+ID_UNIDADE
+ID_PAIS
+SG_UF
+ID_RG_RESI
+ID_MN_RESI
+
+Os atributos acima foram apagados por serem considerados irrelevantes para a previsão do atributo "EVOLUCAO". O principal motivo seria devido ao fato das colunas citadas referenciarem-se a apenas locais.

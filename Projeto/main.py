@@ -14,4 +14,8 @@ limite = len(df) * 0.5
 df = df.dropna(thresh=limite, axis=1)
 df = df.dropna(subset=['EVOLUCAO'])
 
-print(df.shape)
+colunas_apagadas = ['SG_UF_NOT', 'ID_REGIONA', 'ID_MUNICIP', 'ID_UNIDADE', 'ID_PAIS', 'SG_UF', 'ID_RG_RESI', 'ID_MN_RESI']
+
+df = df.drop(columns = colunas_apagadas)
+
+print(df)
