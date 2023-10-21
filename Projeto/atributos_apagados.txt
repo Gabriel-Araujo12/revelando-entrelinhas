@@ -8,3 +8,20 @@ ID_RG_RESI
 ID_MN_RESI
 
 Os atributos acima foram apagados por serem considerados irrelevantes para a previsão do atributo "EVOLUCAO". O principal motivo seria devido ao fato das colunas citadas referenciarem-se a apenas locais.
+
+DT_NOTIFIC
+DT_SIN_PRI
+DT_NASC
+DT_INTERNA
+DT_COLETA
+DT_PCR
+DT_EVOLUCA
+DT_ENCERRA
+DT_DIGITA
+CS_SEXO
+SG_UF_INTE
+ID_RG_INTE
+ID_MN_INTE
+
+As colunas acima foram retiradas para testar a funcionalidade do KNN. Estão sujeitas a serem incluídas novamente na base de dados de acordo com o prosseguimento do Pré-Processamento.	
+
