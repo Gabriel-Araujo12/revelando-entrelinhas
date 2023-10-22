@@ -23,5 +23,15 @@ SG_UF_INTE
 ID_RG_INTE
 ID_MN_INTE
 
-As colunas acima foram retiradas para testar a funcionalidade do KNN. Estão sujeitas a serem incluídas novamente na base de dados de acordo com o prosseguimento do Pré-Processamento.	
+As colunas acima foram retiradas para testar a funcionalidade do KNN. Estão sujeitas a serem incluídas novamente na base de dados de acordo com o prosseguimento do Pré-Processamento.
 
+
+
+CS_ESCOL_N
+NU_IDADE_N
+AVE_SUINO
+CO_MUN_RES
+ID_RG_INTE
+CO_RG_RESI
+
+As colunas acima foram retiradas por serem consideradas irrelevantes para a previsão do atributo "EVOLUCAO". Algumas dessas informações já estão presente em outros atributos.

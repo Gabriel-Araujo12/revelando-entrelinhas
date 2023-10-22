@@ -16,7 +16,7 @@ limite = len(df) * 0.5
 df = df.dropna(thresh = limite, axis = 1)
 df = df.dropna(subset = ['EVOLUCAO'])
 
-colunas_apagadas = ['SG_UF_NOT', 'ID_REGIONA', 'ID_MUNICIP', 'ID_UNIDADE', 'ID_PAIS', 'SG_UF', 'ID_RG_RESI', 'ID_MN_RESI', 'DT_NOTIFIC', 'DT_NASC', 'DT_NOTIFIC', 'DT_SIN_PRI', 'DT_NASC', 'DT_INTERNA', 'DT_COLETA', 'DT_PCR', 'DT_EVOLUCA', 'DT_ENCERRA', 'DT_DIGITA', 'CS_SEXO', 'SG_UF_INTE', 'ID_RG_INTE', 'ID_MN_INTE']
+colunas_apagadas = ['SG_UF_NOT', 'ID_REGIONA', 'ID_MUNICIP', 'ID_UNIDADE', 'ID_PAIS', 'SG_UF', 'ID_RG_RESI', 'ID_MN_RESI', 'DT_NOTIFIC', 'DT_NASC', 'DT_NOTIFIC', 'DT_SIN_PRI', 'DT_NASC', 'DT_INTERNA', 'DT_COLETA', 'DT_PCR', 'DT_EVOLUCA', 'DT_ENCERRA', 'DT_DIGITA', 'CS_SEXO', 'SG_UF_INTE', 'ID_RG_INTE', 'ID_MN_INTE', 'CS_ESCOL_N', 'NU_IDADE_N', 'CO_MUN_RES', 'AVE_SUINO', 'ID_RG_INTE', 'CO_RG_RESI']
 X = df.drop(columns = colunas_apagadas)
 
 #Convertendo todas as colunas restantes do DataFrame para valores numéricos
