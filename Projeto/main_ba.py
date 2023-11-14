@@ -13,6 +13,10 @@ from sklearn import metrics
 path = (r"C:\Users\gabri\Downloads\TCC\Projeto\sinresp.csv")
 df = pd.read_csv(path, on_bad_lines='skip', sep=';', low_memory=False)
 
+#Reduzindo aleatoriamente a base de dados
+col_base = 0.5
+df = df.sample(frac=1, axis=1).iloc[:, :int(col_base * df.shape[1])]
+
 #Convertendo colunas não numéricas para numéricas
 le = LabelEncoder()
 colunas_nn = df.select_dtypes(exclude=['number']).columns

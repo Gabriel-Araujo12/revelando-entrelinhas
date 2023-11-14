@@ -8,6 +8,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score 
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn import metrics
 
 path = (r"C:\Users\gabri\Downloads\TCC\Projeto\sinresp.csv")
 df = pd.read_csv(path, on_bad_lines='skip', sep=';', low_memory=False)
